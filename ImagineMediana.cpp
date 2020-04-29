@@ -1,4 +1,14 @@
 /*
+CERINTA: O imagine A, de dimensiune m (număr de linii) x n (număr de coloane), a fost înregistrată în condiţii
+de zgomot, valorile acesteia fiind perturbate de impulsuri (valori maxime şi minime). Să se filtreze
+imaginea astfel încât să se elimine perturbaţiile. Acest lucru se va realiza folosind următorul
+algoritm (filtru median): imaginea filtrată, Af , este dată de
+Af [i, j]=median(A[i-1, j], A[i, j-1], A[i, j], A[i, j+1], A[i+1, j]),
+unde i=0,...,m-1 şi j=0,...,n-1, iar median(X) este operatorul ce returnează valoarea din mijloc
+(indice 2 în cazul nostru) a valorilor ordonate crescător ale vectorului X. Pentru situaţiile limită,
+când coordonatele valorilor sunt în afara matricei A, acestea sunt înlocuite cu valori de 0. Să se
+afişeze pe ecran matricea Af.
+
 EXEMPLU INPUT SI OUTPUT:
 Input:
 3
