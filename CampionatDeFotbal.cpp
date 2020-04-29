@@ -1,4 +1,7 @@
 /*
+CERINTA: Stabiliţi clasamentul final al campionatului de fotbal pe baza rezultatelor directe între echipele
+participante.
+
 EXEMPLU DE INPUT SI OUTPUT:
 Input:
 4
