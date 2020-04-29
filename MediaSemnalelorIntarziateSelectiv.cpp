@@ -1,4 +1,11 @@
 /*
+CERINTA: Se pun la dispoziţie semnalele eşantionate de la Nmics microfoane, câte un vector de 10 eşantioane
+(numere întregi pe 8 biţi, cu semn) pentru fiecare microfon. Se cere afişarea (doar a) semnalelor
+mediate produse prin aplicarea întârzierilor, având în vedere că ΔD este mai mic sau egal cu 2.
+Întârzierea unui semnal se realizează prin deplasarea la dreapta a vectorului de eşantioane
+corespunzător semnalului, completând cu zero în stânga şi eliminând un număr corespunzător de
+valori din dreapta.
+
 EXEMPLU INPUT SI OUTPUT:
 Input:
 3
