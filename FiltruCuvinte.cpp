@@ -1,4 +1,7 @@
 /*
+CERINTA: Să se înlocuiască dintr-un text dat toate secvenţele de caractere marcate ca nepotrivite, cu o
+secvenţă de acelaşi număr de steluţe (*).
+
 EXEMPLU INPUT SI OUTPUT:
 Input:
 puslamaua de dan a devenit extrem de
